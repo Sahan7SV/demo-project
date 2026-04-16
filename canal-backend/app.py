@@ -87,5 +87,5 @@ def get_ml_health():
     })
 
 if __name__ == '__main__':
-    print("Backend API is running on http://localhost:5000")
+    print("Backend API is running on http://13.51.70.185:5000/api/ml-health")
     app.run(debug=True, port=5000)
