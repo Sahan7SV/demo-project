@@ -61,7 +61,7 @@ export default function App() {
     setIsLoadingML(true);
     try {
       // අපේ Python සර්වර් එකෙන් දත්ත ඉල්ලීම
-      const response = await fetch('http://localhost:5000/api/ml-health');
+      const response = await fetch('http://13.51.70.185:5000/api/ml-health');
       if (response.ok) {
         const data = await response.json();
         setMlData(data); // දත්ත ලැබුණාම state එකට දාගන්නවා
